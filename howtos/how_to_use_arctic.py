@@ -58,7 +58,7 @@ library.list_snapshots()
 
 # Get an old version of a symbol
 library.read('SYMBOL', as_of=1)
-# Geta version given a snapshot name
+# Get a version given a snapshot name
 library.read('SYMBOL', as_of='snapshot_name')
 
 # Delete a snapshot
